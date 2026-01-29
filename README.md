@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # .
 
 Created with **krito** - A modern full-stack scaffolding tool.
@@ -50,3 +51,6 @@ npm run dev
 │   └── server.js
 └── README.md
 ```
+=======
+# Museum_Online_ticket_website
+>>>>>>> 599301b5e2ae485c83ed1966765d7a16446d4be1
