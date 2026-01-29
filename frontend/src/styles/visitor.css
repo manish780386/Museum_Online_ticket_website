@@ -1,0 +1,41 @@
+.visitor-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  padding: 40px;
+  color: #fff;
+}
+
+.visitor-card {
+  max-width: 800px;
+  margin: auto;
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.visitor-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.visitor-row input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.add-btn,
+.next-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.next-btn {
+  background: gold;
+  margin-left: 15px;
+}

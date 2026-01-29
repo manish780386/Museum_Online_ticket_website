@@ -1,0 +1,66 @@
+.search-card {
+  width: 100%;
+  max-width: 950px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(15px);
+  border-radius: 18px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* INPUTS */
+.search-card select,
+.search-card input {
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.25s ease;
+}
+
+/* FOCUS EFFECT */
+.search-card select:focus,
+.search-card input:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 2px #ffcc00;
+}
+
+/* BUTTON */
+.search-card button {
+  background: linear-gradient(135deg, #ffcc00, #ff9900);
+  color: #000;
+  font-weight: 700;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* BUTTON HOVER */
+.search-card button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 204, 0, 0.6);
+}
+
+/* DISABLED */
+.search-card select:disabled {
+  background: rgba(255, 255, 255, 0.5);
+  cursor: not-allowed;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 900px) {
+  .search-card {
+    grid-template-columns: 1fr;
+  }
+
+  .search-card button {
+    padding: 16px;
+  }
+}

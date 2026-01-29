@@ -1,0 +1,12 @@
+.payment-page { padding: 40px; text-align: center; }
+.payment-card {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px #ccc;
+}
+.pay-now {
+  background: #111827;
+  color: white;
+  padding: 10px 20px;
+}

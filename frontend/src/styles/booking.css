@@ -1,0 +1,43 @@
+.booking-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  padding: 40px;
+  color: #fff;
+}
+
+.booking-card {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  backdrop-filter: blur(15px);
+}
+
+.counter {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.counter button {
+  padding: 8px 14px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pay-btn {
+  margin: 30px auto 0;
+  display: block;
+  padding: 14px 30px;
+  font-size: 18px;
+  background: gold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
